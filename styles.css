@@ -381,6 +381,7 @@ a{
     }
     #btn {
       margin: 0 auto;
+      align-self: center;
     }
 }
 
@@ -725,6 +726,13 @@ a{
     text-align: justify;
 }
 
+@media (max-width: 768px) {
+    .skills-sub-heading {
+        text-align: center;
+        margin: 1rem auto;
+    }
+}
+
 @media (max-width:1300px) {
     .skills-container {
       margin: 0;
@@ -740,6 +748,11 @@ a{
     }
     .skill-container-left {
       width: 100%;
+      text-align: center;
+      align-items: center;
+    }
+    .skills-heading {
+      text-align: center;
     }
     .skill-container-right {
       width: 100%;
